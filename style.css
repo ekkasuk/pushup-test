@@ -1,0 +1,55 @@
+body {
+  margin:0;
+  font-family: "Prompt", sans-serif;
+  background: #f4f6f9;
+  text-align:center;
+  color:#1a1a1a;
+}
+
+header {
+  background:#0d47a1;
+  color:white;
+  padding:20px 10px;
+}
+
+header h1 {
+  margin:0;
+  font-size:22px;
+}
+
+.panel {
+  display:flex;
+  justify-content:space-around;
+  margin:40px 0;
+}
+
+.timer span,
+.count span {
+  font-size:60px;
+  font-weight:bold;
+}
+
+.status {
+  font-size:28px;
+  margin-bottom:30px;
+}
+
+#result.pass {
+  color:green;
+  font-weight:bold;
+}
+
+#result.fail {
+  color:red;
+  font-weight:bold;
+}
+
+button {
+  width:80%;
+  padding:18px;
+  font-size:22px;
+  border:none;
+  border-radius:12px;
+  background:#0d47a1;
+  color:white;
+}
